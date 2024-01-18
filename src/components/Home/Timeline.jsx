@@ -22,7 +22,7 @@ const Timeline = () => {
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Digital Avenues. Kolkata, WB</h4>
+                    <h4 className="vertical-timeline-element-subtitle">Digital Avenues. Kolkata, WB, 2023</h4>
                     <p>
                         Full stack developer with ReactJs, NodeJs, NestJs, PostgreSql. Developed admin protal of a task management application.
                     </p>
@@ -31,12 +31,13 @@ const Timeline = () => {
                     className="vertical-timeline-element--work"
                     date="March/2022 - Sep/2022"
                     contentStyle={{ background: "rgb(33, 150, 243)", color: "#e2dbff" }}
+                    contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
                     iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Internship</h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                        Ericsson. Kolkata, WB
+                        Ericsson. Kolkata, WB, 2022
                     </h4>
                     <p>
                         Perl Developer, Developed automated analysis script for health checks of the telecom nodes.
@@ -53,7 +54,7 @@ const Timeline = () => {
                     <h4 className="vertical-timeline-element-subtitle">
                         Jadavpur University
                     </h4>
-                    <p>Kolkata, WB</p>
+                    <p>Kolkata, WB, 2022</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -66,7 +67,7 @@ const Timeline = () => {
                     <h4 className="vertical-timeline-element-subtitle">
                         Jadavpur University
                     </h4>
-                    <p>Kolkata, WB</p>
+                    <p>Kolkata, WB, 2019</p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>

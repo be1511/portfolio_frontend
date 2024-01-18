@@ -26,7 +26,7 @@ const About = () => {
                  and I'm from <span className="yellow"> Kolkata, West Bengal.</span>
                 <br />
                 <br />
-                I recently post-graduated with a Master's degree in Software Engineering in 2022.
+                I graduated with a <span className="yellow">Master's degree</span> in Software Engineering in 2022 from <span className="yellow">Jadavpur University</span>, Kolkata.
                 <br />
                 <br />
                   As a

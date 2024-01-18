@@ -1,16 +1,16 @@
 html {
     --section-background-color: linear-gradient(
       to bottom left,
-      rgb(5, 8, 40), rgb(1, 4, 39)
+      rgb(0, 2, 1), rgb(0, 8, 1)
     );
   
     --image-gradient: linear-gradient(
       to bottom left,
-      rgba(5, 8, 40, 0.87), rgba(1, 4, 39, 0.925)
+      rgba(0, 10, 2, 0.87), rgba(0, 10, 3, 0.925)
     );
   
-    --imp-text-color: #7500fa;
-    --imp-bold-text-color: #7500fa;
+    --imp-text-color: #74fcad;
+    --imp-bold-text-color: #74fcad;
   }
   
   .yellow {
@@ -36,7 +36,7 @@ html {
     height: 100%;
     z-index: 999999;
     background-color: #0c0513;
-    background-image: url(./assets/pre.svg);
+    /* background-image: url(./assets/pre.svg); */
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -60,18 +60,18 @@ html {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #2d005c;
+    background: #049e28;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(77, 1, 165, 0.959);
+    background: rgba(6, 142, 78, 0.959);
     border-radius: 12px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(121, 7, 250);
+    background: rgb(3, 113, 36);
     border-radius: 12px;
   }
   
@@ -79,7 +79,7 @@ html {
   /* Navbar Section  */
   /* --------- */
   .sticky {
-    background-color: #38007731 !important;
+    background-color: #03782a31 !important;
     transition: all 0.3s ease-out 0s !important;
     box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
     backdrop-filter: blur(15px) !important;
@@ -100,7 +100,7 @@ html {
   
   .navbar-toggler span {
     display: block !important;
-    background-color: #7500fa !important;
+    background-color: #74fcad !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -197,7 +197,7 @@ html {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #6e00fd;
+    background: #02b54c;
     bottom: 1px;
     left: 0;
     z-index: -1;
@@ -284,18 +284,18 @@ html {
   }
   
   .main-name {
-    color: #7500fa;
+    color: #74fcad;
   }
   
   .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: #7500fa!important;
+    color: #74fcad!important;
     /* color: #be6adf !important; */
     font-weight: 600 !important;
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
-    color: #7500fa !important;
+    color: #74fcad !important;
   }
   
   @media (max-width: 767px) {
@@ -407,7 +407,7 @@ html {
   /* Footer */
   /* --------- */
   .footer {
-    background-color: rgb(1, 6, 36);
+    background-color: rgb(1, 36, 13);
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
@@ -471,12 +471,12 @@ html {
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
-    border: 1.7px solid rgb(89, 0, 190) !important;
+    border: 1.7px solid rgb(6, 204, 29) !important;
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 5px !important;
     display: table !important;
-    box-shadow: 4px 5px 4px 3px rgba(117, 0, 250, 0.37) !important;
+    box-shadow: 4px 5px 4px 3px rgba(43, 245, 70, 0.37) !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
   }
@@ -490,7 +490,7 @@ html {
   .tech-icons:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid rgba(117, 0, 250, 1) !important;
+    border: 2.2px solid rgb(10, 197, 57) !important;
   }
   .tech-icon-images {
     padding: 20px !important;
@@ -535,7 +535,7 @@ html {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgb(72, 0, 155) !important;
+  box-shadow: 0 4px 5px 3px rgb(35, 201, 23) !important;
   /* box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important; */
   color: white !important;
   background-color: transparent !important;
@@ -547,7 +547,7 @@ html {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   /* box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important; */
-  box-shadow: 0 4px 5px 3px rgba(117, 0, 250, 1) !important;
+  box-shadow: 0 4px 5px 3px rgb(32, 180, 21) !important;
 }
 
 .blog-card {
@@ -578,7 +578,7 @@ html {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+  box-shadow: 0 3px 3px 5px rgba(96, 173, 88, 0.65) !important;
 }
 
 .card-img-top {
@@ -596,16 +596,16 @@ html {
 .btn-primary {
   /* color: #fff !important; */
   color: rgb(24, 2, 44) !important;
-  background-color: #7500fa !important;
-  border-color: #7500fa !important;
+  background-color: #74fcad !important;
+  border-color: #74fcad !important;
   /* background-color: #623686 !important;
   border-color: #623686 !important; */
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #7500fa !important;
-  border-color: #7500fa !important;
+  background-color: #74fcad !important;
+  border-color: #74fcad !important;
   /* background-color: #6d20c5d7 !important;
   border-color: #6d20c5d7 !important; */
 }
@@ -668,14 +668,14 @@ html {
   .resume .resume-item {
     padding: 0 0 10px 25px;
     margin-top: -2px;
-    border-left: 2px solid #8a49a8;
+    border-left: 2px solid #49a851;
     position: relative;
   }
   
   .resume .resume-item .resume-title {
     line-height: 18px;
     font-size: 0.9em;
-    background: #5234795d;
+    background: #3679345d;
     padding: 8px 15px;
     display: inline-block;
     font-weight: 600;
@@ -705,7 +705,7 @@ html {
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid #8a49a8;
+    border: 2px solid #4ba849;
   }
   
   .like-item {
@@ -715,8 +715,8 @@ html {
   }
   
   .like-btn {
-    background-color: #934cce5e !important;
-    border-color: #934cce5e !important;
+    background-color: #4cce505e !important;
+    border-color: #4cce605e !important;
     padding: 0.25rem 0.98rem !important;
     border-radius: 5px !important;
     line-height: 1.4 !important;
@@ -725,8 +725,8 @@ html {
   
   .like-btn:hover {
     transform: translateY(-2px) !important;
-    background-color: #a24dd386 !important;
-    border-color: #a24dd386 !important;
+    background-color: #51d34d86 !important;
+    border-color: #4dd35186 !important;
   }
   
   .animate-like {

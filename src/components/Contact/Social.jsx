@@ -18,6 +18,7 @@ const Social = () => {
                 <p>
                 Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
                 </p>
+                <p>sujitmondal.ju@yahoo.com, +917890103508</p>
                 </div>
                 <ul className="contact-social-links">
                   <li className="contact-icons">
@@ -32,7 +33,7 @@ const Social = () => {
                   </li>
                   {/* <li className="contact-icons">
                     <a
-                      href="https://twitter.com/19sajib"
+                      href="https://twitter.com/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
