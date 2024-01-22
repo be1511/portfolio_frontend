@@ -62,4 +62,4 @@ The page will reload if you make edits.
 Feel free to contribute to this repo.
 
 ### Show some ❤️&nbsp; by giving the star :star: to this repository!!
-<h1 align=center> 🧠 Happy Hacking 🧠 </h1>
+<h1 align=center> 🧠 Happy Developer 🧠 </h1>
